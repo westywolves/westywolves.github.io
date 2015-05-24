@@ -1,0 +1,58 @@
+body {
+    padding-top: 50px;
+}
+.starter-template {
+    padding: 40px 15px;
+    text-align: center;
+}
+
+/* override jumbotron color */
+.jumbotron {
+    padding: 30px 15px;
+    margin-bottom: 30px;
+
+    background-color: #6790BA;
+  }
+
+
+
+/*Announcement code */
+.announcement {
+    padding: 30px 15px;
+    margin-bottom: 30px;
+
+    background-color: #6790BA;
+  }
+.announcement h1,
+.announcement .h1 {
+    color: inherit;
+  }
+.announcement p {
+   margin-bottom: 15px;
+   font-size: 21px;
+   font-weight: 200;
+  }
+.announcement > hr {
+    border-top-color: #d5d5d5;
+  }
+.container .announcement,
+.container-fluid .announcement {
+   border-radius: 6px;
+ }
+.announcement .container {
+   max-width: 100%;
+ }
+@media screen and (min-width: 768px) {
+.announcement {
+    padding: 48px 0;
+    }
+.container .announcement,
+.container-fluid .announcement {
+    padding-right: 60px;
+     padding-left: 60px;
+  }
+  .announcement h1,
+  .announcement .h1 {
+     font-size: 63px;
+   }
+}
